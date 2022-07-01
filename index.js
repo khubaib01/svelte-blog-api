@@ -26,7 +26,7 @@ async function run() {
     app.use('/api/posts', postRoutes);
 
     // start
-    app.listen(5000);
+    app.listen(process.env.PORT || 5000);
   } catch (e) {
     console.log(e.message);
   }
