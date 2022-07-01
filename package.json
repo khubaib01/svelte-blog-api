@@ -7,9 +7,17 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khubaib01/svelte-blog-api"
+  },
   "author": "tamimMuhammad (mmmtamim@gmail.com)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
@@ -19,7 +27,6 @@
     "mongoose": "^6.2.9"
   },
   "engines": {
-    "yarn": ">=1.22.19",
-    "node": ">=16.15.1"
+    "node": "16.x"
   }
 }
